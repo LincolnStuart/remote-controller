@@ -1,7 +1,7 @@
 #include <IRremote.h>
 
-int pinRemoteController = 13;
-int pinLed = 4;
+const int pinRemoteController = 13;
+const int pinLed = 4;
 IRrecv irrecv(pinRemoteController);  
 decode_results dResults; 
 
